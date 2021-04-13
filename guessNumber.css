@@ -1,0 +1,92 @@
+body {
+    background-color: #F4EDED;
+    margin: 0;
+    font-size: 62.5%;
+    color: #464D77;
+    text-align: center;
+}
+
+
+
+.box {
+    margin: 5px;
+    padding: 5px;
+}
+
+.main {
+    font-size: large;
+    display: inline-block;
+    background-color: #F9DB6D;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+figure {
+    border: 10px solid #464D77;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: large;
+}
+
+input {
+    color: #59594A;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button{
+    font-family: 'Indie Flower', cursive;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    background-color: #877666;
+    color: #ffffff;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bdad9f;
+    color: #877666;
+}
+
+header {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #464D77;
+}
+
+footer i {
+    font-size: 15px;
+    margin: 1px 10px;
+}
+

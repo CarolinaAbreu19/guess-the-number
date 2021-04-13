@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number!</title>
+
+    <link rel="stylesheet" href="guessNumber.css">
+
+    <script src="./allPokemons.js"></script>
+    <script src="./guessNumber.js"></script>
+
+    <script src="https://kit.fontawesome.com/d4a52177dc.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">What number does this Pokemon match on Pokedex?</h1>
+    </header>
+
+    <figure>
+        <img src="" alt="some image" id="canvas">
+    </figure>
+
+    <div class="main box">
+        <h2 id="result"></h2>
+        <input type="number" name="screen" id="guessInput">
+        
+        <div class="box">
+            <button id="btnSend" onclick="tryGuess()">Send</button>
+            <p id="labelScore">Your score: <span id="score"></span></p>
+            <p id="lastGuess"></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Guess the Number - Carolina Abreu</p>
+
+        <div>
+            <a href="https://github.com/CarolinaAbreu19" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ana-carolina-silva-abreu-80325a195/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <p>All the Pokémon names and images are copyrighted by Nintendo</p>
+
+        <p>Pokemon Sprites at <a href="https://archives.bulbagarden.net/wiki/Category:Conquest_Pokémon_portraits"
+                target="_blank">Bulbagarden</a>
+        </p>
+
+        <p>This is a project made just for learning</p>
+
+
+    </footer>
+
+</body>
+
+</html>
